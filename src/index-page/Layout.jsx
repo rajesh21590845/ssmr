@@ -3,6 +3,7 @@ import NavigationBar from './NavigationBar';
 import HeroSection_WhyChooseUs from './HeroSection_WhyChooseUs';
 import ExperienceSection from './ExperienceSection';
 import ProductsSection from './ProductsSection';
+import Footers from './Footers';
 
 const Layout = () => {
   return (
@@ -18,7 +19,13 @@ const Layout = () => {
       </div>
       <div style={{ flexGrow: 3, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', backgroundColor: '#ffffff' }}>
         <ProductsSection />
+
       </div>
+      <div>
+        <Footers/>
+      </div>
+      
+      
     </div>
   );
 };
