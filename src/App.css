@@ -1,0 +1,191 @@
+/* App.css */
+
+/* General Container */
+.container {
+  font-family: 'Arial, sans-serif';
+  line-height: 1.6;
+}
+
+/* Top Section */
+.topSection {
+  background-color: #ADD8E6; /* Light Blue */
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoArea {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 60px; /* Adjust as needed */
+  margin-right: 10px;
+}
+
+.companyName {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #003366; /* Dark Blue */
+}
+
+.contactInfo {
+  text-align: right;
+  font-size: 0.9em;
+}
+
+/* Navigation Bar */
+.navBar {
+  background-color: #808080; /* Gray */
+  padding: 10px;
+  text-align: center;
+}
+
+.navLink {
+  color: #FFFFFF; /* White */
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Welcome Section */
+.welcomeSection {
+  background-image: url("URL_TO_YOUR_WELCOME_IMAGE"); /* Replace with actual URL */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.welcomeText {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.knowMoreButton {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Why Choose Us Section */
+.whyChooseUsSection {
+  background-color: #F5F5F5; /* Light Gray */
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.whyChooseUsTitle {
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.reasonsList {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.reasonItem {
+  text-align: center;
+  margin: 20px;
+}
+
+.reasonImage {
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.reasonText {
+  font-size: 1.1em;
+  color: #555;
+}
+
+/* Our Products Section */
+.ourProductsSection {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.productGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.productItem {
+  background-color: #696969; /* DimGray */
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Industries We Serve Section */
+.industriesSection {
+  background-color: #FFFFFF;
+  padding: 50px 20px;
+}
+
+.industriesTitle {
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #333;
+  text-align: center;
+}
+
+.industriesList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.industryItem {
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+/* Footer Section */
+.footerSection {
+  background-color: #90EE90; /* LightGreen */
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.contactArea {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.contactText {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.footerLinks {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footerLinkColumn {
+  text-align: left;
+}
+
+.footerLinkTitle {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footerLinkItem {
+  margin-bottom: 5px;
+}
